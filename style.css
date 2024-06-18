@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+
+.logo{
+    width: 15%;
+    height: 10%;
+    border-radius: 30px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background:#A8F9A3;
+    color: black;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+#nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-links li{
+    list-style: none;
+    margin: 0 20px;
+}
+#nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transition: 0.5s ease;
+}
+#nav-links a:hover{
+ color: white;
+ text-decoration: none;
+}
+
+#hero{
+    background-image: url("img/portrait.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover ;
+    background-position: top 25 right 0;
+    padding: 0 100px;
+
+
+}
+.hero-text{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.swahili-word{
+    color: #A8F9A3;
+    font-size: 4rem;
+   
+  
+}
+.swahili-word:hover{
+    color: black;
+    transition: 0.5s ease;
+}
+
+.dealing{
+    font-size: 1.5rem;
+
+}
+.shop_button{
+    background-color: #A8F9A3;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+.shop_button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.pd-1{
+    padding: 40px 80px;
+}
+.feature-img{
+    width: 180px;
+    font-size: 30px;
+    color:white;
+    background:black;
+
+    padding: 25px 15px;
+   
+    border-radius: 2px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0);
+    margin: 15px 0;
+    transform: translate(Y);
+    transition: 0.5s ease-in-out;
+
+}
+.feature-img:hover{
+    background-color: white ;
+    color: black;
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+}
+img{
+  margin: 0 20px;
+    width: 100px;
+}
+.delivery{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+#feature{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('img/nairobi day.jpg');
+    background-size: cover;
+}
+.support{
+    color: brown;
+}
+.order{
+    color: blue;
+}
+.happy{
+    color: crimson;
+}
+.deals{
+    color: mediumvioletred;
+}
+.money{
+    color: darkgreen;
+}
+#products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+#product-cards .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-img{
+    background: silver;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid burlywood;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translate(Y);
+}
+
+
+.product-img img{
+    padding-right: 40px;
+    align-items: center;
+    width:100%;
+   
+}
+.product-img:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+}
+
+.product-text{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-left: 340px;
+ 
+}
+.product-info{
+    text-align: center;
+}
+.effect{
+
+    color: forestgreen;
+}
+.product-text p{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-img{
+    size: 500px;
+    width: 300px;
+    
+    border-radius: 20px;
+
+    margin: 15px 0;
+    transition: 0.5s ease-in-out;
+}
+.rating{
+    color:	#E49B0F;
+}
+.product-info a i{
+    font-size: 20px;
+    font-weight: 600;
+   color: darkmagenta;
+}
+.p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 3rem;    
+    font-weight: 600;
+    text-align: center;
+}
+.explore{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    margin-left: 130px;
+    background-color: #A8F9A3;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 50px;
+    width: 250px;
+    height: 100px;
+    border: none;
+    margin-bottom: 50px;
+}
+.explore-link{
+    text-decoration: none;
+
+}
+.explore:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.newsletter{
+    margin-top: 50px;
+    color: white;
+    background-image: url(img/road.jpg);
+
+}
+.news-form{
+    margin-top: 30px;
+}
+input{
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+
+#subscribe{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+}
+#socials-text{
+    font-size: 40px;
+    font-weight: 600;
+}
+#contact-details{
+    display: flex;
+    margin-left: 20px;
+}
+.contact-icons{
+    font-size: 30px;
+    color: #E49B0F;
+
+}
+
+.wrapper .button {
+    display: inline-block;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow:  0px 10px 10px rgb(0, 0,0);
+    cursor: pointer;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    
+    background: #DE3163;	
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: grey;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: red;
+}
+
+.wrapper .button:nth-child(4):hover .icon{
+    background: #6082B6;   
+}
+.wrapper .button:nth-child(5):hover .icon{
+    background: #DE3163;    
+}
+
+
+.wrapper .button:nth-child(1) span{
+    color: #DE3163;	
+}
+.wrapper .button:nth-child(2) span{
+    color:  grey;
+}
+.wrapper .button:nth-child(3) span{
+   color:  red;
+}
+
+.wrapper .button:nth-child(4) span{
+ color: #6082B6;  
+}
+.wrapper .button:nth-child(5) span{
+    color:maroon;    
+}
+
+.wrapper .button:hover{
+    width: 200px;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.wrapper .button .icon{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.wrapper .button .icon i{
+    
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin: auto;
+}
+.text{
+    font-size: 30px;
+    font-weight: 600;
+}
+#socials-text{
+    padding-top:50px;
+}
+
+.social-icon{
+    font-size: 2.5rem;
+    color: red;
+    border: 2px solid white;
+
+    border-radius: 20px;
+    transform: translate(Y);
+}
+.social-icon:hover{
+    color: black;
+    transform: translate(-45deg);
+    transition: 0.5s ease;
+}
+.social-icon a:hover{
+    color: black;
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+}
+
+
+.socials-container{
+    float: left;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.socials-container a{
+    font-size: 30px;
+    color: #8BCF82;
+    transition: 0.5s ease-in-out;
+    transform: translate(Y);
+}
+.socials-container a:hover{
+    color: black;
+    transform: translateY(-10px);
+   
+}
+#contact-details{
+    padding-top: 30px;
+    margin-left: 40px;
+
+}
+iframe {
+    align-items: left;
+    filter: grayscale(100%); 
+}
+  
+
+.footer{
+    background-image: url(img/globe.jpg);
+}
+
+
+
+
+
+
+
+
+    
+
+
