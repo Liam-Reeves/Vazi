@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vazi Clothes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <script src="https://kit.fontawesome.com/fd48f3693c.js" crossorigin="anonymous"></script>
 </head>
 <body> 
     <!-- header section starts here -->
-    <section id="header">
+    <nav id="header">
         <a href=""><img src="img/clothlogo.jpg" class="logo" alt=""></a>
         <div>
             <ul id="nav-links">
@@ -22,7 +23,23 @@
             </ul>
         </div>
 
-    </section>
+    </nav>
+    <nav class="hamburger-menu">
+        <input type="checkbox" id="menu-toggle" aria-label="Toggle Menu">
+        <label for="menu-toggle" class="menu-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      
+
         <!-- header section ends here -->
 
         <!-- hero section starts here -->
@@ -246,11 +263,11 @@
             <div class="container">
                 <div class="news-text">
                     <h2>Subscribe to Our Newsletter</h2>
-                    <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+                    <p>Subscribe to our newsletter and <span>get 10% off your first purchase</span></p>
                 </div>
                 <div class="news-form">
                     <form action="">
-                        <input type="text" placeholder="Enter Your Email">
+                        <input type="text" id="input" placeholder="Enter Your Email">
                         <button id="subscribe" type="submit">Subscribe</button>
                     </form>
                 </div>
@@ -274,7 +291,7 @@
                         <span>Instagram</span>
                     </div>
                     <div class="button">
-                        <div class="icon"><i class="fa-brands fa-x-twitter"></i>></div>
+                        <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
                         <span>Twitter</span>
                     </div>
                     <div class="button">
@@ -297,6 +314,15 @@
         </div>
    
  </section>
+
+
+ <footer id="footer">
+    <div class="copyright">
+        <div class="container">
+            <p><b>Copyright &copy; 2024 Vaziclothes   All rights reserved </b> </p>
+    
+    </div>
+ </footer>
 
 
 
